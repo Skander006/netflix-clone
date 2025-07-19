@@ -58,6 +58,13 @@ body::before{
     background-color: rgb(218, 10, 10);
     border: none;
     border-radius: 6px;
+    cursor: pointer;
+}
+.second_button:hover{
+    opacity: 0.9;
+}
+.second_button:active{
+    opacity: 0.8;
 }
 .hero{
     text-align: center;
@@ -101,4 +108,11 @@ body::before{
     border: none;
     font-weight: 700;
     font-size: 16px;
+    cursor: pointer;
+}
+.start__button:hover{
+    opacity: 0.9;
+}
+.start__button:active{
+    opacity: 0.8;
 }
